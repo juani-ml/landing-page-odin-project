@@ -1,0 +1,43 @@
+body{
+    background-color: #1F2937;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+h3 {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.header_items{
+    list-style-type: none;
+    display: flex;
+    margin-right: 100px;
+    margin-top: 20px;
+    gap: 18px;
+}
+
+footer{
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.container1{
+    
+}
+
+.container2{
+    
+}
+
+.container3{
+    
+}
+
+.container4{
+    
+}
