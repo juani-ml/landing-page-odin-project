@@ -84,3 +84,23 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
+.container-four{
+  color:#f9faf8;
+}
+
+.container-four .blue-box {
+  background-color: #3882f6;
+}
+
+.container-four button {
+  background-color: #3882f6;
+  color:#f9faf8;
+  border-color: #f9faf8;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+}
