@@ -32,7 +32,6 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 100px;
 }
 
 .container-one h1 {
@@ -67,4 +66,21 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 10px;
+}
+
+.container-two{
+  background-color: #f9faf8;
+}
+
+.container-three{
+  background-color: #E5E7EB;
+}
+
+.container-four{
+  background-color: #f9faf8;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
 }
