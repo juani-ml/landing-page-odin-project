@@ -28,9 +28,11 @@ footer {
   text-align: center;
 }
 
-.container-one{
-    display: flex;
-    flex-direction: row;
+.container-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 100px;
 }
 
 .container-one h1 {
@@ -41,15 +43,28 @@ footer {
 
 .container-one p {
   color: #e5e7eb;
+  font-size: 14px;
 }
 
 .template {
   background-color: #ddd;
-  padding: 50px;
+  padding: 100px;
   text-align: center;
 }
 
 .template:before {
   content: "This is a placeholder";
   color: #888;
+}
+
+.box-one button {
+  background-color: #3882f6;
+  border-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
 }
