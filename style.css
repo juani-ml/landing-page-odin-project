@@ -28,11 +28,20 @@ footer {
   text-align: center;
 }
 
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+  background-color: #f9faf8;
+  border: 1px solid red;
+  padding: 3%;
+}
+
 .container-one {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  border: 1px solid red;
+  background-color: #1f2937;
 }
 
 .container-one h1 {
@@ -44,17 +53,6 @@ footer {
 .container-one p {
   color: #e5e7eb;
   font-size: 14px;
-}
-
-.template {
-  background-color: #ddd;
-  padding: 100px;
-  text-align: center;
-}
-
-.template:before {
-  content: "This is a placeholder";
-  color: #888;
 }
 
 .box-one button {
@@ -69,24 +67,15 @@ footer {
   border-radius: 10px;
 }
 
-.container-two{
-  background-color: #f9faf8;
-  border: 1px solid red;
+.template {
+  background-color: #ddd;
+  padding: 100px;
+  text-align: center;
 }
 
-.container-three{
-  background-color: #E5E7EB;
-  border: 1px solid red;
-}
-
-.container-four{
-  background-color: #f9faf8;
-  border: 1px solid red;
-}
-
-.container{
-  display: flex;
-  flex-direction: column;
+.template:before {
+  content: "This is a placeholder";
+  color: #888;
 }
 
 .container-four .blue-box {
@@ -95,7 +84,7 @@ footer {
 
 .container-four button {
   background-color: #3882f6;
-  color:#f9faf8;
+  color: #f9faf8;
   border-color: #f9faf8;
   font-weight: bold;
   padding-top: 5px;
