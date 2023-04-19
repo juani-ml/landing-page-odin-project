@@ -90,7 +90,6 @@ footer {
 
 .container-three{
   background-color: #E5E7EB;
-  padding: 1%;
 }
 
 .container-three h4{
@@ -109,6 +108,18 @@ footer {
 /* Container 4 */
 .container-four .blue-box {
   background-color: #3882f6;
+  padding: 1%;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+.container-four h5{
+  font-size: 18px;
+}
+
+.container-four p {
+  font-size: 15px;
+  padding-bottom: 10px;
 }
 
 .container-four button {
