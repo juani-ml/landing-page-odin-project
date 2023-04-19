@@ -88,6 +88,24 @@ footer {
 /* Container 2 - TO DO */
 /* Container 3 - TO DO */
 
+.container-three{
+  background-color: #E5E7EB;
+  padding: 1%;
+}
+
+.container-three h4{
+  color: #1F2937;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 36px;
+}
+
+.container-three p{
+  color: #1F2937;
+  font-weight: bolder;
+  text-align: right;
+}
+
 /* Container 4 */
 .container-four .blue-box {
   background-color: #3882f6;
