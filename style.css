@@ -32,6 +32,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  border: 1px solid red;
 }
 
 .container-one h1 {
@@ -70,23 +71,22 @@ footer {
 
 .container-two{
   background-color: #f9faf8;
+  border: 1px solid red;
 }
 
 .container-three{
   background-color: #E5E7EB;
+  border: 1px solid red;
 }
 
 .container-four{
   background-color: #f9faf8;
+  border: 1px solid red;
 }
 
 .container{
   display: flex;
   flex-direction: column;
-}
-
-.container-four{
-  color:#f9faf8;
 }
 
 .container-four .blue-box {
