@@ -4,6 +4,8 @@ body {
   flex-direction: column;
 }
 
+/* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -23,10 +25,14 @@ h3 {
   gap: 18px;
 }
 
+/* Footer */
+
 footer {
   color: #f9faf8;
   text-align: center;
 }
+
+/* Containers */
 
 .container-one,
 .container-two,
@@ -36,6 +42,8 @@ footer {
   border: 1px solid red;
   padding: 3%;
 }
+
+/* Container 1 */
 
 .container-one {
   display: flex;
@@ -77,7 +85,10 @@ footer {
   content: "This is a placeholder";
   color: #888;
 }
+/* Container 2 - TO DO */
+/* Container 3 - TO DO */
 
+/* Container 4 */
 .container-four .blue-box {
   background-color: #3882f6;
 }
