@@ -146,6 +146,9 @@ footer {
   padding: 1%;
   border-radius: 10px;
   color: #f9faf8;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
 }
 
 .container-four h5{
@@ -167,4 +170,17 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
   border-radius: 10px;
+}
+
+.container-four{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-four .blue-box,
+.container-four .text{
+  align-items: center;
+  justify-content: space-around;
+  padding: 1%;
 }
